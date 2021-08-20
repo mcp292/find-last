@@ -1,7 +1,6 @@
 Quick script to test different approaches to the problem of detecting
-the last item in a list, prompted by this [SO post](https://
-stackoverflow.com/questions/39808908/detect-if-item-is-the-last-in-a-
-list).
+the last item in a list, prompted by this
+[SO post](https://stackoverflow.com/questions/39808908/detect-if-item-is-the-last-in-a-list).
 
 Results on my machine:
 ```txt
