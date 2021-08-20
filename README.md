@@ -12,3 +12,5 @@ skip_last_num():             4.144758571997954
 ```
 
 I figure python must be optimizing the for each loop.
+
+<!-- TODO: test with C -->
