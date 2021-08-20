@@ -53,20 +53,20 @@ def main():
 
     print("check_last_num():\t\t\t",
           timeit("check_last_num(rand_list)", setup="from __main__ import "
-                 "check_last_num, get_rand_list\nrand_list = get_rand_list()",
-                 number=ITERATIONS))
+                 "check_last_num, get_rand_list\n"
+                 "rand_list = get_rand_list()", number=ITERATIONS))
     print("check_last_num_ind():\t\t",
           timeit("check_last_num_ind(rand_list)", setup="from __main__ import "
-                 "check_last_num_ind, get_rand_list\nrand_list = get_rand_list()",
-                 number=ITERATIONS))
+                 "check_last_num_ind, get_rand_list\n"
+                 "rand_list = get_rand_list()", number=ITERATIONS))
     print("check_last_num_ind_acc():\t",
           timeit("check_last_num_ind_acc(rand_list)", setup="from __main__ import "
-                 "check_last_num_ind_acc, get_rand_list\nrand_list = get_rand_list()",
-                 number=ITERATIONS))
+                 "check_last_num_ind_acc, get_rand_list\n"
+                 "rand_list = get_rand_list()", number=ITERATIONS))
     print("skip_last_num():\t\t\t",
           timeit("skip_last_num(rand_list)", setup="from __main__ import "
-                 "skip_last_num, get_rand_list\nrand_list = get_rand_list()",
-                 number=ITERATIONS))
+                 "skip_last_num, get_rand_list\n"
+                 "rand_list = get_rand_list()", number=ITERATIONS))
 
 
 if __name__ == "__main__":
