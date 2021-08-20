@@ -2,7 +2,7 @@ Quick script to test different approaches to the problem of detecting
 the last item in a list, prompted by this
 [SO post](https://stackoverflow.com/questions/39808908/detect-if-item-is-the-last-in-a-list).
 
-Results on my machine:
+Results on my machine (seconds):
 ```txt
 check_last_num():            3.9227688719984144
 check_last_num_ind():        5.9376225670021086
