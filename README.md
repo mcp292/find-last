@@ -23,5 +23,6 @@ skip_last_num():             536.3545343529986
 I figure python must be optimizing the for each loop.
 
 TODO: test with C
+TODO: test with slicing instead of range()
 
 <!--  <a name="10k"></a> [10k](#10k) -->
